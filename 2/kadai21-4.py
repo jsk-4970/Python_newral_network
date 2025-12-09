@@ -31,7 +31,7 @@ class HumanAgent(Agent):
 		return (x, y)
 
 if __name__ == "__main__":
-	n = 5
+	n = 3
 	game = TicTacToe(n)
 	player1 = RandomAgent()
 	player2 = HumanAgent()
